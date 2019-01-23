@@ -1,59 +1,34 @@
-<!doctype html>
-<html>
-<head>
-  <title>WEB1 - html</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1><a href="index.html">WEB</a></h1>
-<div id="grid">
-  <ol>
-    <li><a href="1.html">HTML</a></li>
-    <li><a href="2.html">CSS</a></li>
-    <li><a href="3.html">JavaScript</a></li>
-    <li><a href="4.html">채팅</a></li>
-  </ol>
-  <div id="article">
-<!--
-  <h1><a href="index.html"><font color="red">WEB</font></a></h1>
-  <ol>
-    <li><a href="1.html"><font color="red">HTML</font></a></li>
-    <li><a href="2.html"><font color="red">CSS</font></a></li>
-    <li><a href="3.html"><font color="red">JavaScript</font></a></li>
-    <li><a href="4.html"><font color="red">채팅</font></a></li>
-  </ol>
--->
-  <h2>HTML란 무엇인가?</h2>
-  <p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/tZooW6PritE?list=PLuHgQVnccGMDZP7FJ_ZsUrdCGH68ppvPb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </p>
-  <P><a href="http://www.w3.org/TR/html5/" target="_blank" title="html5 specification">Hypertext Markep Language(HTML)</a> is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications. Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
-  <img src="669071.jpg" width="30%">
-  </P><p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting structual semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets</P>
-  <p>
-  </div>
-</div>
-    <div id="disqus_thread"></div>
-<script>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Chinease Web</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <input type="button" style="font-size:30px; WIDTH: 80pt; HEIGHT: 30pt" value="Night" onclick="
+    var target = document.querySelector('body');
+    if(this.value === 'Night'){
+      target.style.backgroundColor = 'black';
+      target.style.color = 'white';
+      this.value = 'Day';
+    } else {
+      target.style.backgroundColor = 'white';
+      target.style.color = 'black';
+      this.value = 'Night';
+    }
+      ">
+    <h1><a href="index.html">중국어연습</a></h1>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://firstweb-1.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </p>
-</body>
+    <ol>
+      <li><a href="1.html">단어</a></li>
+      <li><a href="2.html">문장</a></li>
+    </ol>
+
+    <p>我 wǒ 你 nǐ 他 tā 她 tā</p>
+    <p>喜欢 [xǐ‧huan] 爱 [ài] 喝 [hē] 吃 [chī] 不 [bù]吗 [ma]? 去 [qù] 来 [lái] 好[hǎo] 咖啡 [kāfēi]<br>하이스 还是 [háishi] 또는, A (~가) 아니면 B </p>
+    <p>띠아오위 钓鱼[diàoyú] 낚시하다<br> 티주치우踢足球 [tī zúqiú] 축구를 하다<br> 수이비엔 随便 [suíbiàn] 마음대로하다 <br>썅우 上午 [shàngwǔ] 오전<br>씨아우 下午 [xiàwǔ] 오후<br>쭝우(쫑우) 中午 [zhōngwǔ] 점심<br>챠 茶 [chá] 차<br>슈웨이 水 [shuǐ] 물<br>꾸어즈 果汁 [guǒzhī] 과일즙.<br>크어러 可乐 [kělè] 코카콜라(可口可乐)<br> 汉堡 [hànbǎo] 햄버거. 함부르크<br>씨앙강 香港 [Xiānggǎng] 홍콩
+<br>꺼꺼 哥哥 [gēge] 형. 오빠
+</p>
+  </body>
 </html>
